@@ -13,10 +13,6 @@ def homepage():
 def contatos():
     return render_template("localizacao.html")
 
-@app.route("/servicos")
-def serviços():
-    return render_template("servicos.html")
-
 @app.route("/horarios")
 def horarios():
     return render_template("horarios.html")
