@@ -9,7 +9,7 @@
 body
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
 }
@@ -18,12 +18,13 @@ body
     position: relative;
     width: 600px;
     height: 350px;
-    background: rgb(124, 124, 124);
+    background: transparent;
     border-radius: 5%;
     display: flex;
     align-items: center;
     border-radius: 20px;
     transition: 0.2s;
+    padding: 10px 10px 10px 10px;
 }
 .card .circulo
 {
